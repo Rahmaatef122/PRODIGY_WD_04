@@ -1,0 +1,69 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="hero">
+            <h1>Hello, I'm [Rahma Atef]</h1>
+            <p>Web Developer | Designer | Programmer</p>
+            <a href="#projects" class="cta">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="2b3ea89d-5afc-4f48-a23c-850cd371f8ff.jpeg" alt="Your Photo">
+            <div class="bio">
+                <p>Hello! I am a passionate web developer with expertise in front-end and back-end technologies. I love crafting responsive and interactive websites. With a background in [Your Education] and experience in [Professional Experience], I focus on delivering high-quality projects that exceed client expectations.</p>
+                <p>Skills: HTML, CSS, JavaScript, React, Node.js, SQL, Git, etc.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A brief description of the project. You can also include a link to the live demo and GitHub repo.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A brief description of the project. You can also include a link to the live demo and GitHub repo.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you're interested in working together or have any questions, feel free to reach out!</p>
+        <a href="mailto:youremail@example.com">Send me an Email</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="site.js"></script> <!-- Link to external JavaScript file -->
+</body>
